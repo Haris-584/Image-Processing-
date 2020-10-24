@@ -1,8 +1,8 @@
 % read image
-im=imread('image.jpg');
+im=imread('C:\Users\Haris\Documents\GitHub\Image-Processing-\images/rgb.jpg');
 
 % convert it into grayscale
-im=rgb2gray(imread('image.jpg'));
+im=rgb2gray(imread('C:\Users\Haris\Documents\GitHub\Image-Processing-\images/rgb.jpg'));
 
 % resize the image 
 im1=imresize(im, [1024 1024]);
